@@ -1,0 +1,160 @@
+# Synthesized table of contents for import into ALPS.
+# The upstream repository is a notebook collection with no Jupyter Book TOC;
+# this file gives it a book structure without altering any lesson content.
+
+format: jb-book
+root: README
+parts:
+  - caption: "Prerequisites"
+    chapters:
+      - file: content/00_prerequisites/00_introduction_to_python/slides
+        sections:
+          - file: content/00_prerequisites/00_introduction_to_python/colab
+      - file: content/00_prerequisites/01_intermediate_python/slides
+        sections:
+          - file: content/00_prerequisites/01_intermediate_python/00-objects
+          - file: content/00_prerequisites/01_intermediate_python/01-exceptions
+          - file: content/00_prerequisites/01_intermediate_python/02-lambdas
+          - file: content/00_prerequisites/01_intermediate_python/03-list-comprehension
+  - caption: "What Is Ml"
+    chapters:
+      - file: content/01_what_is_ml/00_introduction/slides
+      - file: content/01_what_is_ml/01_introduction_to_models/slides
+      - file: content/01_what_is_ml/02_fairness/slides
+        sections:
+          - file: content/01_what_is_ml/02_fairness/ethical_consideration_worksheet
+  - caption: "Data"
+    chapters:
+      - file: content/02_data/00_introduction_to_colab/slides
+        sections:
+          - file: content/02_data/00_introduction_to_colab/colab
+      - file: content/02_data/01_introduction_to_pandas/slides
+        sections:
+          - file: content/02_data/01_introduction_to_pandas/colab
+      - file: content/02_data/02_intermediate_pandas/slides
+        sections:
+          - file: content/02_data/02_intermediate_pandas/colab
+      - file: content/02_data/03_visualizations/slides
+        sections:
+          - file: content/02_data/03_visualizations/colab
+      - file: content/02_data/04_acquiring_data/slides
+        sections:
+          - file: content/02_data/04_acquiring_data/colab
+      - file: content/02_data/05_exploratory_data_analysis/slides
+        sections:
+          - file: content/02_data/05_exploratory_data_analysis/colab-part1
+          - file: content/02_data/05_exploratory_data_analysis/colab-part2
+      - file: content/02_data/06_project_data_processing/colab
+  - caption: "Regression"
+    chapters:
+      - file: content/03_regression/00_introduction_to_regression/slides
+      - file: content/03_regression/01_introduction_to_sklearn/slides
+        sections:
+          - file: content/03_regression/01_introduction_to_sklearn/colab
+      - file: content/03_regression/02_regression_in_sklearn/slides
+        sections:
+          - file: content/03_regression/02_regression_in_sklearn/colab
+      - file: content/03_regression/03_regression_quality/slides
+        sections:
+          - file: content/03_regression/03_regression_quality/colab
+      - file: content/03_regression/04_polynomial_regression/slides
+        sections:
+          - file: content/03_regression/04_polynomial_regression/colab
+      - file: content/03_regression/05_introduction_to_tensorflow/slides
+        sections:
+          - file: content/03_regression/05_introduction_to_tensorflow/colab
+      - file: content/03_regression/06_linear_regression_with_tensorflow/slides
+        sections:
+          - file: content/03_regression/06_linear_regression_with_tensorflow/colab
+      - file: content/03_regression/07_neural_networks/slides
+      - file: content/03_regression/08_regression_with_tensorflow/slides
+        sections:
+          - file: content/03_regression/08_regression_with_tensorflow/colab
+      - file: content/03_regression/09_regression_project/slides
+        sections:
+          - file: content/03_regression/09_regression_project/colab
+  - caption: "Classification"
+    chapters:
+      - file: content/04_classification/00_intro_to_classification/slides
+      - file: content/04_classification/01_binary_classification/slides
+        sections:
+          - file: content/04_classification/01_binary_classification/colab
+      - file: content/04_classification/02_multiclass_classification/slides
+        sections:
+          - file: content/04_classification/02_multiclass_classification/colab
+      - file: content/04_classification/03_classification_with_tensorflow/slides
+        sections:
+          - file: content/04_classification/03_classification_with_tensorflow/colab
+      - file: content/04_classification/04_classification_project/slides
+        sections:
+          - file: content/04_classification/04_classification_project/colab
+      - file: content/04_classification/05_introduction_to_image_classification/slides
+        sections:
+          - file: content/04_classification/05_introduction_to_image_classification/colab
+      - file: content/04_classification/06_images_and_video/slides
+        sections:
+          - file: content/04_classification/06_images_and_video/00-pil
+          - file: content/04_classification/06_images_and_video/01-open_cv
+          - file: content/04_classification/06_images_and_video/02-video_processing
+      - file: content/04_classification/07_saving_and_loading_models/slides
+        sections:
+          - file: content/04_classification/07_saving_and_loading_models/colab
+      - file: content/04_classification/08_video_processing_project/slides
+        sections:
+          - file: content/04_classification/08_video_processing_project/colab
+      - file: content/04_classification/xx_classification_gone_wrong/slides
+  - caption: "Deep Learning"
+    chapters:
+      - file: content/05_deep_learning/00_convolutional_neural_networks/slides
+        sections:
+          - file: content/05_deep_learning/00_convolutional_neural_networks/colab
+      - file: content/05_deep_learning/01_recurrent_neural_networks/slides
+        sections:
+          - file: content/05_deep_learning/01_recurrent_neural_networks/colab
+      - file: content/05_deep_learning/02_natural_language_processing/slides
+        sections:
+          - file: content/05_deep_learning/02_natural_language_processing/colab
+      - file: content/05_deep_learning/03_autoencoders/slides
+        sections:
+          - file: content/05_deep_learning/03_autoencoders/colab
+      - file: content/05_deep_learning/04_transfer_learning/slides
+        sections:
+          - file: content/05_deep_learning/04_transfer_learning/colab
+      - file: content/05_deep_learning/05_image_classification_project/slides
+        sections:
+          - file: content/05_deep_learning/05_image_classification_project/colab
+  - caption: "Other Models"
+    chapters:
+      - file: content/06_other_models/00_clustering/slides
+      - file: content/06_other_models/01_k_means/slides
+        sections:
+          - file: content/06_other_models/01_k_means/colab
+      - file: content/06_other_models/02_embeddings/slides
+        sections:
+          - file: content/06_other_models/02_embeddings/colab
+      - file: content/06_other_models/03_decision_trees_and_random_forests/slides
+        sections:
+          - file: content/06_other_models/03_decision_trees_and_random_forests/colab
+      - file: content/06_other_models/04_knn/slides
+        sections:
+          - file: content/06_other_models/04_knn/colab
+      - file: content/06_other_models/05_svm/slides
+        sections:
+          - file: content/06_other_models/05_svm/colab
+      - file: content/06_other_models/06_bayesian_modeling/slides
+        sections:
+          - file: content/06_other_models/06_bayesian_modeling/colab
+      - file: content/06_other_models/07_xgboost/slides
+        sections:
+          - file: content/06_other_models/07_xgboost/colab
+  - caption: "Capstone"
+    chapters:
+      - file: content/07_capstone/00_capstone_project_introduction/capstone_project_introduction
+      - file: content/07_capstone/01_design_documents/design_documents
+        sections:
+          - file: content/07_capstone/01_design_documents/ethical_consideration_worksheet
+      - file: content/07_capstone/02_project_ideation/slides
+  - caption: "Back Matter"
+    chapters:
+      - file: about-this-book
+        title: About This Book
